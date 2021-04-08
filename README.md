@@ -3,7 +3,7 @@
 * the restful API with Spring boot data jpa and web starter kit, H2 in memory DB.
     * accessible at: http://localhost:8080/dogs, /dogs/name, /dogs/breed, /{id}/breed
 * the graphql API with graphql java tools and graphiql spring boot.
-    * accessible at:
+    * schema accessible at: http://localhost:8080/graphql/schema.json , graphiql interface accessible at: http://localhost:8080/graphiql
 * the microservice with netflix eureka registry and discovery service.
     * eureka server accessible at: http://localhost:8761/
 
