@@ -1,4 +1,4 @@
-## This is a Restfull, Graphql and Microservice java + spring boot API.
+## This is a RESTful, Graphql and Microservice java + spring boot API.
 ### implementation details:
 * the restful API with Spring boot data jpa and web starter kit, H2 in memory DB.
     * accessible at: 
