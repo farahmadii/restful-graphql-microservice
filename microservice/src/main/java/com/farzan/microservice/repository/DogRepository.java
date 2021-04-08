@@ -1,6 +1,6 @@
 package com.farzan.microservice.repository;
 
-import entity.Dog;
+import com.farzan.microservice.entity.Dog;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

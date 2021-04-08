@@ -1,4 +1,4 @@
-package entity;
+package com.farzan.microservice.entity;
 
 
 import javax.persistence.Entity;
