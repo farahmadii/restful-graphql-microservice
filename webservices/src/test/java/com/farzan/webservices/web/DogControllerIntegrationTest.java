@@ -29,7 +29,12 @@ public class DogControllerIntegrationTest {
     @LocalServerPort
     private int port;
 
-    @Autowired
+    /*
+    the TestRestTemplate annotation is suitable for integration test and allows us to consume rest APIs
+    in a testing scenario programmatically.
+    It provides a constructor with which we can create a template with specified credentials for basic authentication.
+    All requests performed using this instance will be authenticated using provided credentials.
+    */
     private TestRestTemplate testRestTemplate
             = new TestRestTemplate("admin", "password");
 
